@@ -283,3 +283,22 @@ body.has-install-banner { padding-bottom: var(--install-banner-height, 140px); }
   .disclaimer { font-size: .9rem; }
   .card-footer .btn { flex: 1; }
 }
+
+/* GoWild! Pass guide */
+.card h3 { font-size: 1rem; margin: 18px 0 6px; }
+.rule-list { margin: 0; padding-left: 1.2em; }
+.rule-list li + li { margin-top: 6px; }
+.card a { color: var(--brand-link); }
+.table-wrap { overflow-x: auto; margin: 0 -4px; padding: 0 4px; }
+.pass-table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.pass-table th, .pass-table td { text-align: left; vertical-align: top; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--border); }
+.pass-table thead th { font-size: .78rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.pass-table tbody th { white-space: nowrap; }
+.peak-list { margin: 12px 0 0; }
+.peak-list dt { font-weight: 700; margin-top: 12px; }
+.peak-list dd { margin: 4px 0 0; }
+@media (max-width: 600px) {
+  .pass-table thead { display: none; }
+  .pass-table tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .pass-table th, .pass-table td { display: block; padding: 2px 0; border: 0; }
+}

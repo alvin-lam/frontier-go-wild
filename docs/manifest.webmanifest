@@ -1,7 +1,7 @@
 {
   "name": "Frontier Airlines Go Wild! | All Trips Considered",
   "short_name": "Go Wild!",
-  "description": "One sentence describing what this tool does.",
+  "description": "A plain-language guide to the Frontier GoWild! Pass rules, prices and peak days.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

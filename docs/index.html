@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; require-trusted-types-for 'script'; trusted-types 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Frontier Airlines Go Wild!</title>
-<meta name="description" content="One sentence describing what this tool does.">
+<meta name="description" content="A plain-language guide to the Frontier GoWild! Pass: who can enroll, when to book, what it costs and which days are peak days.">
 <meta name="theme-color" content="#1f4fd6">
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
@@ -50,26 +50,91 @@
       <p class="brand"><a href="https://alltripsconsidered.com" target="_blank" rel="noopener noreferrer">All Trips Considered</a></p>
       <!-- TEMPLATE: tool name followed by one emoji, e.g. "Schengen 90/180 Calculator 🇪🇺" -->
       <h1 id="page-title" tabindex="-1">Frontier Airlines Go Wild! ✈️</h1>
-      <p class="lede">One or two sentences describing what this tool does and how to use it.</p>
+      <p class="lede">A plain-language guide to the GoWild! Pass rules: who can enroll, when to book, what each pass costs and which days are peak days.</p>
     </header>
 
-    <section class="card">
+    <section class="card" aria-labelledby="gw-basics">
       <div class="card-header">
-        <h2>Section title</h2>
+        <h2 id="gw-basics">How the GoWild! Pass works</h2>
       </div>
-      <p>Card content goes here.</p>
-      <p class="hint">Hints use the muted color and slightly smaller text.</p>
-      <div class="card-footer">
-        <button type="button" class="btn btn-ghost">Secondary</button>
-        <button type="button" class="btn btn-primary">Primary action</button>
+      <p>The pass lets the pass holder book select Frontier flights at a base fare of $0.01. Seats are limited, and not every flight is offered.</p>
+      <h3>Who can enroll</h3>
+      <ul class="rule-list">
+        <li>The buyer must be at least 18 and live in the United States. The buyer can enroll themselves or someone else.</li>
+        <li>The pass holder must live in the United States and be a FRONTIER Miles member. Anyone who is not yet a member is enrolled automatically.</li>
+        <li>The pass is not transferable. Only the pass holder can book with it and fly on it.</li>
+      </ul>
+      <h3>When you can book</h3>
+      <ul class="rule-list">
+        <li><strong>Domestic flights:</strong> from the day before departure.</li>
+        <li><strong>International flights:</strong> from 10 days before departure.</li>
+        <li>Booking earlier, or flying on a peak travel day, can cost more. Frontier posts these charges on its optional services page.</li>
+      </ul>
+      <h3>What the fare covers</h3>
+      <ul class="rule-list">
+        <li>The pass holder pays all taxes, fees and charges when booking.</li>
+        <li>Seat selection, carry-on bags and checked bags are not included. They can be bought separately.</li>
+        <li>The pass cannot be combined with other Frontier sales or promotions unless an offer says so.</li>
+      </ul>
+      <h3>Booking rules</h3>
+      <ul class="rule-list">
+        <li>Book only flights you plan to take. Overlapping, duplicate or impossible itineraries are not allowed, and neither is booking for resale.</li>
+        <li>Changes and cancellations follow the ticket's normal rules, including current change or cancel fees plus any fare difference.</li>
+        <li>Repeated no-shows or other rule breaking can lead to penalties, up to losing the pass with no refund.</li>
+        <li>Children 14 or younger must fly with someone at least 15 years old. Minors crossing borders without both parents may need extra documents.</li>
+        <li>On international trips, you must meet entry rules, which can include proof of a return or onward flight.</li>
+      </ul>
+      <h3>Payment, renewal and canceling</h3>
+      <ul class="rule-list">
+        <li>The first payment is not refundable. The card used becomes the default card in the account's Wallet.</li>
+        <li><strong>Passes renew automatically.</strong> Renewal charges are not refundable. Frontier may charge another saved card if the default card fails.</li>
+        <li>To stop renewal, cancel in your FRONTIER Miles profile before midnight Mountain Time on the last day of the current term. For the 2027 Annual Pass, the deadline is October 31, 2027.</li>
+        <li>Frontier may change the pass terms at any time without notice. It must give notice before changing the renewal price.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="gw-passes">
+      <div class="card-header">
+        <h2 id="gw-passes">Pass types and prices</h2>
       </div>
+      <div class="table-wrap">
+        <table class="pass-table">
+          <thead>
+            <tr><th scope="col">Pass</th><th scope="col">Travel period</th><th scope="col">Price</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Annual 2026–27</th><td>May 1, 2026 to April 30, 2027</td><td>Renews at $699 for May 1, 2027 to December 31, 2028</td></tr>
+            <tr><th scope="row">Annual 2027</th><td>Date of purchase to December 31, 2027</td><td>Renews at $599 for 2028</td></tr>
+            <tr><th scope="row">Summer 2026</th><td>April 22 to September 30, 2026</td><td>Renews at $399 for May 1 to September 30, 2027</td></tr>
+            <tr><th scope="row">Fall &amp; Winter 2026</th><td>August 4, 2026 to February 28, 2027</td><td>Up to $399</td></tr>
+            <tr><th scope="row">Monthly</th><td>Rolling 30 days</td><td>$139 enrollment fee, then $149 every 30 days</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="hint">Frontier may discount these prices at any time. A Monthly Pass holder who cancels and re-enrolls within 30 days does not pay the enrollment fee again.</p>
+    </section>
+
+    <section class="card" aria-labelledby="gw-peak">
+      <div class="card-header">
+        <h2 id="gw-peak">Peak travel days</h2>
+      </div>
+      <p>On these days, flights can cost more than the $0.01 fare, even inside the normal booking window.</p>
+      <dl class="peak-list">
+        <dt>2026</dt>
+        <dd>January 1, 3–4, 15–16, 19; February 12–13, 16; March 13–15, 20–22, 27–29; April 3–6, 10–12; May 21–22, 25; June 25–28; July 2–6; September 3–4, 7; October 8–9, 11–12; November 24–25, 28–30; December 19–31</dd>
+        <dt>2027</dt>
+        <dd>January 1–3, 14–15, 18; February 11–12, 15; March 12–14, 20–21, 26–29; April 2–4; May 27–28, 31; July 1–5; September 2–3, 6; October 7–8, 11; November 23–24, 27–29; December 18–24, 26–31</dd>
+        <dt>2028</dt>
+        <dd>January 1–3, 13–14, 17; February 17–18, 21; March 10–12, 17–19, 24–26, 31; April 1–2, 14–17; May 25–26, 29; June 29–30; July 1–5, 8–9; August 31; September 1, 4; October 5–6, 9; November 21–22, 25–27; December 20–24, 26–31</dd>
+      </dl>
+      <p class="hint">Source: <a href="https://www.flyfrontier.com/frontiermiles/terms-and-conditions/#GoWild!_Pass" target="_blank" rel="noopener noreferrer">FRONTIER Miles Terms and Conditions</a>, sections 14 to 18. This is a plain-language summary. Frontier's terms are the official rules.</p>
     </section>
 
     <footer class="disclaimer">
       <p>Data you enter is saved only in this browser.</p>
       <p>This tool is for general information only.</p>
-      <!-- TEMPLATE: when the tool relies on rules or data that change, say when they were last checked. Delete if not needed. -->
-      <p class="rules-note"><strong>Rules last checked: Month Year.</strong> Briefly note the scope, what is included or left out, and any upcoming changes.</p>
+      <p class="rules-note"><strong>Rules last checked: November 2026.</strong> Covers the GoWild! Pass terms Frontier shows on its FRONTIER Miles terms page. Frontier can change these terms at any time, so confirm details on flyfrontier.com before you buy or book.</p>
+      <p>Not affiliated with or endorsed by Frontier Airlines. GoWild! is a trademark of Frontier Airlines.</p>
       <p class="footer-links"><a href="privacy.html">Privacy</a></p>
       <!-- TEMPLATE: replace the images in assets/img with this app's icon. -->
       <img src="assets/img/icon-150.png" alt="Frontier Airlines Go Wild! icon" width="75" height="75" class="footer-icon">
