@@ -1,0 +1,30 @@
+{
+ "names": {
+  "christmas": "Kalėdos",
+  "easter": "Velykos",
+  "europe-day": "Europos diena",
+  "midsummer": "Joninės",
+  "new-years-eve": "Naujųjų metų išvakarės",
+  "valentines": "Valentino diena"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatinis (numatytasis)",
+  "autumn": "Ruduo",
+  "classic": "Klasikinis",
+  "color": "Spalva",
+  "dark": "Tamsus",
+  "hintAuto": "Pagal įrenginio nustatymą.",
+  "hintDark": "Visada tamsus, nepriklausomai nuo įrenginio.",
+  "hintLight": "Visada šviesus, nepriklausomai nuo įrenginio.",
+  "holidays": "Šventės",
+  "light": "Šviesus",
+  "mode": "Režimas",
+  "now": "Dabar:",
+  "seasons": "Metų laikai",
+  "spring": "Pavasaris",
+  "summer": "Vasara",
+  "title": "Išvaizda",
+  "winter": "Žiema"
+ }
+}

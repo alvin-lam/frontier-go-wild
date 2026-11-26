@@ -1,0 +1,28 @@
+{
+ "names": {
+  "christmas": "Jól",
+  "easter": "Páskar",
+  "new-years-eve": "Gamlárskvöld",
+  "valentines": "Valentínusardagur"
+ },
+ "ui": {
+  "auto": "Sjálfvirkt",
+  "automatic": "Sjálfvirkt (sjálfgefið)",
+  "autumn": "Haust",
+  "classic": "Klassískt",
+  "color": "Litur",
+  "dark": "Dökkt",
+  "hintAuto": "Fylgir stillingu tækisins.",
+  "hintDark": "Alltaf dökkt, óháð stillingu tækisins.",
+  "hintLight": "Alltaf ljóst, óháð stillingu tækisins.",
+  "holidays": "Hátíðir",
+  "light": "Ljóst",
+  "mode": "Stilling",
+  "now": "Núna:",
+  "seasons": "Árstíðir",
+  "spring": "Vor",
+  "summer": "Sumar",
+  "title": "Útlit",
+  "winter": "Vetur"
+ }
+}

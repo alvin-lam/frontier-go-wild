@@ -1,0 +1,31 @@
+{
+ "names": {
+  "carnival": "Karneval",
+  "christmas": "Božić",
+  "easter": "Uskrs",
+  "europe-day": "Dan Europe",
+  "new-years-eve": "Silvestrovo",
+  "sinterklaas": "Sveti Nikola",
+  "valentines": "Valentinovo"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatski (zadano)",
+  "autumn": "Jesen",
+  "classic": "Klasično",
+  "color": "Boja",
+  "dark": "Tamno",
+  "hintAuto": "Prati postavku uređaja.",
+  "hintDark": "Uvijek tamno, bez obzira na uređaj.",
+  "hintLight": "Uvijek svijetlo, bez obzira na uređaj.",
+  "holidays": "Blagdani",
+  "light": "Svijetlo",
+  "mode": "Način",
+  "now": "Sada:",
+  "seasons": "Godišnja doba",
+  "spring": "Proljeće",
+  "summer": "Ljeto",
+  "title": "Izgled",
+  "winter": "Zima"
+ }
+}

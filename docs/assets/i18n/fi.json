@@ -1,0 +1,35 @@
+{
+ "names": {
+  "christmas": "Joulu",
+  "easter": "Pääsiäinen",
+  "europe-day": "Eurooppa-päivä",
+  "hanukkah": "Hanukka",
+  "lunar-new-year": "Kuun uusivuosi",
+  "midsummer": "Juhannus",
+  "new-years-eve": "Uudenvuodenaatto",
+  "st-lucia": "Lucian päivä",
+  "st-patricks": "Pyhän Patrikin päivä",
+  "three-kings": "Loppiainen",
+  "valentines": "Ystävänpäivä"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automaattinen (oletus)",
+  "autumn": "Syksy",
+  "classic": "Klassinen",
+  "color": "Väri",
+  "dark": "Tumma",
+  "hintAuto": "Seuraa laitteen asetusta.",
+  "hintDark": "Aina tumma laitteen asetuksesta riippumatta.",
+  "hintLight": "Aina vaalea laitteen asetuksesta riippumatta.",
+  "holidays": "Juhlapyhät",
+  "light": "Vaalea",
+  "mode": "Tila",
+  "now": "Nyt:",
+  "seasons": "Vuodenajat",
+  "spring": "Kevät",
+  "summer": "Kesä",
+  "title": "Ulkoasu",
+  "winter": "Talvi"
+ }
+}

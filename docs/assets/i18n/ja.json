@@ -1,0 +1,38 @@
+{
+ "names": {
+  "christmas": "クリスマス",
+  "diwali": "ディーワーリー",
+  "easter": "イースター",
+  "eid-al-adha": "イード・アル＝アドハー",
+  "eid-al-fitr": "イド・アル＝フィトル",
+  "golden-week": "ゴールデンウィーク",
+  "halloween": "ハロウィン",
+  "hanukkah": "ハヌカ",
+  "holi": "ホーリー祭",
+  "lunar-new-year": "旧正月",
+  "mid-autumn": "中秋節",
+  "new-years-eve": "大晦日",
+  "st-patricks": "聖パトリックの日",
+  "valentines": "バレンタインデー"
+ },
+ "ui": {
+  "auto": "自動",
+  "automatic": "自動（デフォルト）",
+  "autumn": "秋",
+  "classic": "クラシック",
+  "color": "カラー",
+  "dark": "ダーク",
+  "hintAuto": "デバイスの設定に合わせます。",
+  "hintDark": "デバイスの設定にかかわらず常にダーク。",
+  "hintLight": "デバイスの設定にかかわらず常にライト。",
+  "holidays": "祝日・行事",
+  "light": "ライト",
+  "mode": "モード",
+  "now": "現在：",
+  "seasons": "季節",
+  "spring": "春",
+  "summer": "夏",
+  "title": "表示設定",
+  "winter": "冬"
+ }
+}

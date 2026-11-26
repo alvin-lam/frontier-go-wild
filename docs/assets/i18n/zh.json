@@ -1,0 +1,136 @@
+{
+ "country": {
+  "HK": {
+   "names": {
+    "christmas": "聖誕節",
+    "easter": "復活節",
+    "halloween": "萬聖節",
+    "hanukkah": "光明節",
+    "lunar-new-year": "農曆新年",
+    "mid-autumn": "中秋節",
+    "new-years-eve": "除夕倒數",
+    "st-patricks": "聖派翠克節",
+    "valentines": "情人節"
+   },
+   "ui": {
+    "auto": "自動",
+    "automatic": "自動（預設）",
+    "autumn": "秋",
+    "classic": "經典",
+    "color": "顏色",
+    "dark": "深色",
+    "hintAuto": "跟隨裝置設定。",
+    "hintDark": "一律使用深色，不受裝置設定影響。",
+    "hintLight": "一律使用淺色，不受裝置設定影響。",
+    "holidays": "節日",
+    "light": "淺色",
+    "mode": "模式",
+    "now": "目前：",
+    "seasons": "季節",
+    "spring": "春",
+    "summer": "夏",
+    "title": "外觀",
+    "winter": "冬"
+   }
+  },
+  "MO": {
+   "names": {
+    "lunar-new-year": "農曆新年",
+    "mid-autumn": "中秋節"
+   },
+   "ui": {
+    "auto": "自動",
+    "automatic": "自動（預設）",
+    "autumn": "秋",
+    "classic": "經典",
+    "color": "顏色",
+    "dark": "深色",
+    "hintAuto": "跟隨裝置設定。",
+    "hintDark": "一律使用深色，不受裝置設定影響。",
+    "hintLight": "一律使用淺色，不受裝置設定影響。",
+    "holidays": "節日",
+    "light": "淺色",
+    "mode": "模式",
+    "now": "目前：",
+    "seasons": "季節",
+    "spring": "春",
+    "summer": "夏",
+    "title": "外觀",
+    "winter": "冬"
+   }
+  },
+  "TW": {
+   "names": {
+    "christmas": "聖誕節",
+    "diwali": "排燈節",
+    "easter": "復活節",
+    "eid-al-adha": "宰牲節",
+    "eid-al-fitr": "開齋節",
+    "halloween": "萬聖節",
+    "hanukkah": "光明節",
+    "holi": "灑紅節",
+    "lunar-new-year": "春節",
+    "mid-autumn": "中秋節",
+    "new-years-eve": "跨年夜",
+    "st-patricks": "聖派翠克節",
+    "valentines": "情人節"
+   },
+   "ui": {
+    "auto": "自動",
+    "automatic": "自動（預設）",
+    "autumn": "秋",
+    "classic": "經典",
+    "color": "顏色",
+    "dark": "深色",
+    "hintAuto": "跟隨裝置設定。",
+    "hintDark": "一律使用深色，不受裝置設定影響。",
+    "hintLight": "一律使用淺色，不受裝置設定影響。",
+    "holidays": "節日",
+    "light": "淺色",
+    "mode": "模式",
+    "now": "目前：",
+    "seasons": "季節",
+    "spring": "春",
+    "summer": "夏",
+    "title": "外觀",
+    "winter": "冬"
+   }
+  }
+ },
+ "names": {
+  "christmas": "圣诞节",
+  "diwali": "排灯节",
+  "easter": "复活节",
+  "eid-al-adha": "古尔邦节",
+  "eid-al-fitr": "开斋节",
+  "halloween": "万圣节",
+  "hanukkah": "光明节",
+  "holi": "洒红节",
+  "lunar-new-year": "春节",
+  "mid-autumn": "中秋节",
+  "national-day-cn": "国庆节",
+  "new-years-eve": "跨年夜",
+  "st-patricks": "圣帕特里克节",
+  "valentines": "情人节"
+ },
+ "ui": {
+  "auto": "自动",
+  "automatic": "自动（默认）",
+  "autumn": "秋",
+  "classic": "经典",
+  "color": "颜色",
+  "dark": "深色",
+  "hintAuto": "跟随设备设置。",
+  "hintDark": "始终使用深色，不受设备设置影响。",
+  "hintLight": "始终使用浅色，不受设备设置影响。",
+  "holidays": "节日",
+  "light": "浅色",
+  "mode": "模式",
+  "now": "当前：",
+  "seasons": "季节",
+  "spring": "春",
+  "summer": "夏",
+  "title": "外观",
+  "winter": "冬"
+ }
+}

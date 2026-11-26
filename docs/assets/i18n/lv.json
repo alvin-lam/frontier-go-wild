@@ -1,0 +1,30 @@
+{
+ "names": {
+  "christmas": "Ziemassvētki",
+  "easter": "Lieldienas",
+  "europe-day": "Eiropas diena",
+  "midsummer": "Jāņi",
+  "new-years-eve": "Vecgada vakars",
+  "valentines": "Valentīndiena"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automātiski (noklusējums)",
+  "autumn": "Rudens",
+  "classic": "Klasisks",
+  "color": "Krāsa",
+  "dark": "Tumšs",
+  "hintAuto": "Atbilst ierīces iestatījumam.",
+  "hintDark": "Vienmēr tumšs, neatkarīgi no ierīces.",
+  "hintLight": "Vienmēr gaišs, neatkarīgi no ierīces.",
+  "holidays": "Svētki",
+  "light": "Gaišs",
+  "mode": "Režīms",
+  "now": "Tagad:",
+  "seasons": "Gadalaiki",
+  "spring": "Pavasaris",
+  "summer": "Vasara",
+  "title": "Izskats",
+  "winter": "Ziema"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "names": {
+  "carnival": "Pust",
+  "christmas": "Božič",
+  "easter": "Velika noč",
+  "europe-day": "Dan Evrope",
+  "new-years-eve": "Silvestrovo",
+  "sinterklaas": "Miklavž",
+  "valentines": "Valentinovo"
+ },
+ "ui": {
+  "auto": "Samodejno",
+  "automatic": "Samodejno (privzeto)",
+  "autumn": "Jesen",
+  "classic": "Klasično",
+  "color": "Barva",
+  "dark": "Temno",
+  "hintAuto": "Sledi nastavitvi naprave.",
+  "hintDark": "Vedno temno, ne glede na napravo.",
+  "hintLight": "Vedno svetlo, ne glede na napravo.",
+  "holidays": "Prazniki",
+  "light": "Svetlo",
+  "mode": "Način",
+  "now": "Zdaj:",
+  "seasons": "Letni časi",
+  "spring": "Pomlad",
+  "summer": "Poletje",
+  "title": "Videz",
+  "winter": "Zima"
+ }
+}

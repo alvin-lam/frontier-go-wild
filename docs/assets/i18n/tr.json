@@ -1,0 +1,37 @@
+{
+ "names": {
+  "christmas": "Noel",
+  "diwali": "Divali",
+  "easter": "Paskalya",
+  "eid-al-adha": "Kurban Bayramı",
+  "eid-al-fitr": "Ramazan Bayramı",
+  "halloween": "Cadılar Bayramı",
+  "hanukkah": "Hanuka",
+  "lunar-new-year": "Ay Yeni Yılı",
+  "new-years-eve": "Yılbaşı Gecesi",
+  "nowruz": "Nevruz",
+  "republic-day-tr": "Cumhuriyet Bayramı",
+  "st-patricks": "Aziz Patrick Günü",
+  "valentines": "Sevgililer Günü"
+ },
+ "ui": {
+  "auto": "Otomatik",
+  "automatic": "Otomatik (varsayılan)",
+  "autumn": "Sonbahar",
+  "classic": "Klasik",
+  "color": "Renk",
+  "dark": "Koyu",
+  "hintAuto": "Cihaz ayarınızı izler.",
+  "hintDark": "Cihaz ayarından bağımsız olarak her zaman koyu.",
+  "hintLight": "Cihaz ayarından bağımsız olarak her zaman açık.",
+  "holidays": "Bayramlar ve özel günler",
+  "light": "Açık",
+  "mode": "Mod",
+  "now": "Şimdi:",
+  "seasons": "Mevsimler",
+  "spring": "İlkbahar",
+  "summer": "Yaz",
+  "title": "Görünüm",
+  "winter": "Kış"
+ }
+}

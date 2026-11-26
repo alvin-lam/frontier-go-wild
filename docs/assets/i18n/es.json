@@ -1,0 +1,63 @@
+{
+ "country": {
+  "MX": {
+   "names": {
+    "new-years-eve": "Fin de Año",
+    "valentines": "Día del Amor y la Amistad"
+   }
+  }
+ },
+ "names": {
+  "carnival": "Carnaval",
+  "christmas": "Navidad",
+  "easter": "Pascua",
+  "eid-al-adha": "Fiesta del Sacrificio",
+  "eid-al-fitr": "Fiesta del Fin del Ramadán",
+  "europe-day": "Día de Europa",
+  "fiestas-patrias-cl": "Fiestas Patrias",
+  "fiestas-patrias-pe": "Fiestas Patrias",
+  "hanukkah": "Janucá",
+  "independence-ar": "Día de la Independencia",
+  "independence-bo": "Día de la Independencia",
+  "independence-co": "Día de la Independencia",
+  "independence-cr": "Día de la Independencia",
+  "independence-ec": "Primer Grito de Independencia",
+  "independence-gt": "Día de la Independencia",
+  "independence-hn": "Día de la Independencia",
+  "independence-ni": "Día de la Independencia",
+  "independence-py": "Día de la Independencia",
+  "independence-sv": "Día de la Independencia",
+  "independence-uy": "Día de la Independencia",
+  "independence-ve": "Día de la Independencia",
+  "labor-day": "Día del Trabajo",
+  "lunar-new-year": "Año Nuevo Lunar",
+  "mexican-independence": "Día de la Independencia",
+  "mid-autumn": "Festival del Medio Otoño",
+  "new-years-eve": "Nochevieja",
+  "pride": "Orgullo",
+  "st-patricks": "San Patricio",
+  "thanksgiving": "Día de Acción de Gracias",
+  "three-kings": "Día de Reyes",
+  "valentines": "San Valentín"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automático (predeterminado)",
+  "autumn": "Otoño",
+  "classic": "Clásico",
+  "color": "Color",
+  "dark": "Oscuro",
+  "hintAuto": "Sigue la configuración de tu dispositivo.",
+  "hintDark": "Siempre oscuro, sin importar la configuración de tu dispositivo.",
+  "hintLight": "Siempre claro, sin importar la configuración de tu dispositivo.",
+  "holidays": "Días festivos",
+  "light": "Claro",
+  "mode": "Modo",
+  "now": "Ahora:",
+  "seasons": "Estaciones",
+  "spring": "Primavera",
+  "summer": "Verano",
+  "title": "Apariencia",
+  "winter": "Invierno"
+ }
+}

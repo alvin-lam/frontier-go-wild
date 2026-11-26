@@ -1,0 +1,37 @@
+{
+ "names": {
+  "carnival": "Carnaval",
+  "christmas": "Kerstmis",
+  "easter": "Pasen",
+  "eid-al-adha": "Offerfeest",
+  "eid-al-fitr": "Suikerfeest",
+  "europe-day": "Dag van Europa",
+  "hanukkah": "Chanoeka",
+  "kings-day": "Koningsdag",
+  "lunar-new-year": "Maannieuwjaar",
+  "new-years-eve": "Oud en Nieuw",
+  "sinterklaas": "Sinterklaas",
+  "three-kings": "Driekoningen",
+  "valentines": "Valentijnsdag"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatisch (standaard)",
+  "autumn": "Herfst",
+  "classic": "Klassiek",
+  "color": "Kleur",
+  "dark": "Donker",
+  "hintAuto": "Volgt de instelling van je apparaat.",
+  "hintDark": "Altijd donker, ongeacht je apparaat.",
+  "hintLight": "Altijd licht, ongeacht je apparaat.",
+  "holidays": "Feestdagen",
+  "light": "Licht",
+  "mode": "Modus",
+  "now": "Nu:",
+  "seasons": "Seizoenen",
+  "spring": "Lente",
+  "summer": "Zomer",
+  "title": "Weergave",
+  "winter": "Winter"
+ }
+}

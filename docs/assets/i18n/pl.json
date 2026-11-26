@@ -1,0 +1,34 @@
+{
+ "names": {
+  "christmas": "Boże Narodzenie",
+  "easter": "Wielkanoc",
+  "europe-day": "Dzień Europy",
+  "hanukkah": "Chanuka",
+  "lunar-new-year": "Księżycowy Nowy Rok",
+  "new-years-eve": "Sylwester",
+  "sinterklaas": "Mikołajki",
+  "st-patricks": "Dzień Świętego Patryka",
+  "three-kings": "Trzech Króli",
+  "valentines": "Walentynki"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatyczny (domyślny)",
+  "autumn": "Jesień",
+  "classic": "Klasyczny",
+  "color": "Kolor",
+  "dark": "Ciemny",
+  "hintAuto": "Zgodnie z ustawieniem urządzenia.",
+  "hintDark": "Zawsze ciemny, niezależnie od urządzenia.",
+  "hintLight": "Zawsze jasny, niezależnie od urządzenia.",
+  "holidays": "Święta",
+  "light": "Jasny",
+  "mode": "Tryb",
+  "now": "Teraz:",
+  "seasons": "Pory roku",
+  "spring": "Wiosna",
+  "summer": "Lato",
+  "title": "Wygląd",
+  "winter": "Zima"
+ }
+}

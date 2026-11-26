@@ -1,0 +1,35 @@
+{
+ "names": {
+  "christmas": "Jul",
+  "constitution-day-no": "17. mai",
+  "easter": "Påske",
+  "hanukkah": "Hanukka",
+  "lunar-new-year": "Månenyttår",
+  "midsummer": "Sankthans",
+  "new-years-eve": "Nyttårsaften",
+  "st-lucia": "Luciadagen",
+  "st-patricks": "St. Patricks dag",
+  "three-kings": "Hellig tre kongers dag",
+  "valentines": "Valentinsdagen"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatisk (standard)",
+  "autumn": "Høst",
+  "classic": "Klassisk",
+  "color": "Farge",
+  "dark": "Mørk",
+  "hintAuto": "Følger innstillingen på enheten.",
+  "hintDark": "Alltid mørk, uansett innstilling på enheten.",
+  "hintLight": "Alltid lys, uansett innstilling på enheten.",
+  "holidays": "Høytider",
+  "light": "Lys",
+  "mode": "Modus",
+  "now": "Nå:",
+  "seasons": "Årstider",
+  "spring": "Vår",
+  "summer": "Sommer",
+  "title": "Utseende",
+  "winter": "Vinter"
+ }
+}

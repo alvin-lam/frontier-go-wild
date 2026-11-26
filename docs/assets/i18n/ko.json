@@ -1,0 +1,37 @@
+{
+ "names": {
+  "christmas": "크리스마스",
+  "diwali": "디왈리",
+  "easter": "부활절",
+  "eid-al-adha": "이드 알아드하",
+  "eid-al-fitr": "이드 알피트르",
+  "halloween": "핼러윈",
+  "hanukkah": "하누카",
+  "holi": "홀리",
+  "lunar-new-year": "설날",
+  "mid-autumn": "추석",
+  "new-years-eve": "새해 전야",
+  "st-patricks": "성 패트릭의 날",
+  "valentines": "밸런타인데이"
+ },
+ "ui": {
+  "auto": "자동",
+  "automatic": "자동 (기본값)",
+  "autumn": "가을",
+  "classic": "클래식",
+  "color": "색상",
+  "dark": "다크",
+  "hintAuto": "기기 설정을 따릅니다.",
+  "hintDark": "기기 설정과 관계없이 항상 다크.",
+  "hintLight": "기기 설정과 관계없이 항상 라이트.",
+  "holidays": "기념일",
+  "light": "라이트",
+  "mode": "모드",
+  "now": "지금:",
+  "seasons": "계절",
+  "spring": "봄",
+  "summer": "여름",
+  "title": "화면 스타일",
+  "winter": "겨울"
+ }
+}

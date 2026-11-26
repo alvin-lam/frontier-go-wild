@@ -1,0 +1,111 @@
+<!doctype html>
+<!-- TEMPLATE: set data-app to a short unique id for this app (lowercase letters, numbers, hyphens).
+     It names this app's saved settings in the browser. -->
+<html lang="en" data-app="app-name">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- Security policy for this page. Keep it the same in privacy.html and in the Cloudflare header rule (see README). -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; require-trusted-types-for 'script'; trusted-types 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<!-- TEMPLATE: replace "App Name" in the title, h1, icon alt text, install banner and manifest. -->
+<title>App Name</title>
+<meta name="description" content="One sentence describing what this tool does.">
+<meta name="theme-color" content="#1f4fd6">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="assets/fonts/instrument-serif-v5-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/app.css">
+<script src="assets/js/calendar-data.js"></script>
+<script src="assets/js/theme-boot.js"></script>
+<script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <div class="top-controls">
+      <div class="appearance-wrap">
+        <button type="button" id="appearance-button" class="theme-toggle" aria-expanded="false" aria-controls="appearance-panel" aria-label="Appearance" title="Appearance">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke-width="1.8"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" stroke="none"/></svg>
+        </button>
+        <div id="appearance-panel" class="appearance-panel" role="dialog" aria-labelledby="appearance-title" hidden>
+          <h2 id="appearance-title" class="appearance-title">Appearance</h2>
+          <fieldset class="appearance-group">
+            <legend>Mode</legend>
+            <div class="segmented">
+              <label><input type="radio" name="mode" value="auto"><span>Auto</span></label>
+              <label><input type="radio" name="mode" value="light"><span>Light</span></label>
+              <label><input type="radio" name="mode" value="dark"><span>Dark</span></label>
+            </div>
+            <p id="mode-hint" class="mode-hint"></p>
+          </fieldset>
+          <fieldset class="appearance-group">
+            <legend>Color</legend>
+            <div id="scheme-list" class="scheme-list"></div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+
+    <header class="page-header">
+      <p class="brand"><a href="https://alltripsconsidered.com" target="_blank" rel="noopener noreferrer">All Trips Considered</a></p>
+      <!-- TEMPLATE: tool name followed by one emoji, e.g. "Schengen 90/180 Calculator 🇪🇺" -->
+      <h1 id="page-title" tabindex="-1">App Name ✈️</h1>
+      <p class="lede">One or two sentences describing what this tool does and how to use it.</p>
+    </header>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>Section title</h2>
+      </div>
+      <p>Card content goes here.</p>
+      <p class="hint">Hints use the muted color and slightly smaller text.</p>
+      <div class="card-footer">
+        <button type="button" class="btn btn-ghost">Secondary</button>
+        <button type="button" class="btn btn-primary">Primary action</button>
+      </div>
+    </section>
+
+    <footer class="disclaimer">
+      <p>Data you enter is saved only in this browser.</p>
+      <p>This tool is for general information only.</p>
+      <!-- TEMPLATE: when the tool relies on rules or data that change, say when they were last checked. Delete if not needed. -->
+      <p class="rules-note"><strong>Rules last checked: Month Year.</strong> Briefly note the scope, what is included or left out, and any upcoming changes.</p>
+      <p class="footer-links"><a href="privacy.html">Privacy</a></p>
+      <!-- TEMPLATE: replace the images in assets/img with this app's icon. -->
+      <img src="assets/img/icon-150.png" alt="App Name icon" width="75" height="75" class="footer-icon">
+      <p class="copyright">© <span id="copyright-year">2026</span> <a href="https://alltripsconsidered.com">All Trips Considered</a>. All rights reserved.</p>
+      <!-- TEMPLATE: mark this app's own link with aria-current="page" and change its arrow text to "You are here".
+           Add a new tool here and in every other app, keeping alphabetical order. -->
+      <nav class="quick-links" aria-labelledby="quick-links-title">
+        <h2 id="quick-links-title">Travel Tools</h2>
+        <ul>
+          <li><a href="https://jetlag.alltripsconsidered.com"><span class="ql-icon" aria-hidden="true">💤</span><span class="ql-name">Jet Lag</span><span class="ql-arrow" aria-hidden="true">›</span></a></li>
+          <li><a href="https://mymaps.alltripsconsidered.com"><span class="ql-icon" aria-hidden="true">🗺️</span><span class="ql-name">My Maps</span><span class="ql-arrow" aria-hidden="true">›</span></a></li>
+          <li><a href="https://points.alltripsconsidered.com"><span class="ql-icon" aria-hidden="true">✈️</span><span class="ql-name">Point Calculator</span><span class="ql-arrow" aria-hidden="true">›</span></a></li>
+          <li><a href="https://90days.alltripsconsidered.com"><span class="ql-icon" aria-hidden="true">🇪🇺</span><span class="ql-name">Schengen 90/180</span><span class="ql-arrow" aria-hidden="true">›</span></a></li>
+          <li><a href="https://tripfinder.alltripsconsidered.com"><span class="ql-icon" aria-hidden="true">🧭</span><span class="ql-name">Trip Finder</span><span class="ql-arrow" aria-hidden="true">›</span></a></li>
+        </ul>
+      </nav>
+    </footer>
+  </main>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top" hidden>
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div id="install-banner" class="install-banner" role="region" aria-label="Add to Home Screen" hidden>
+    <img src="assets/img/icon-192.png" alt="" class="install-icon" width="48" height="48">
+    <div class="install-text">
+      <strong>Add App Name to your Home Screen</strong>
+      <span id="install-instructions">Tap <span class="share-glyph" aria-label="Share"></span> Share, then "Add to Home Screen".</span>
+    </div>
+    <div class="install-actions">
+      <button type="button" id="install-dismiss" class="btn btn-ghost">Not now</button>
+      <button type="button" id="install-accept" class="btn btn-primary" hidden>Install</button>
+    </div>
+  </div>
+</body>
+</html>

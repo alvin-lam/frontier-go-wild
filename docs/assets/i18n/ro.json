@@ -1,0 +1,29 @@
+{
+ "names": {
+  "christmas": "Crăciun",
+  "easter": "Paște",
+  "europe-day": "Ziua Europei",
+  "new-years-eve": "Revelion",
+  "valentines": "Ziua Îndrăgostiților"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automat (implicit)",
+  "autumn": "Toamnă",
+  "classic": "Clasic",
+  "color": "Culoare",
+  "dark": "Întunecat",
+  "hintAuto": "Urmează setarea dispozitivului.",
+  "hintDark": "Mereu întunecat, indiferent de dispozitiv.",
+  "hintLight": "Mereu luminos, indiferent de dispozitiv.",
+  "holidays": "Sărbători",
+  "light": "Luminos",
+  "mode": "Mod",
+  "now": "Acum:",
+  "seasons": "Anotimpuri",
+  "spring": "Primăvară",
+  "summer": "Vară",
+  "title": "Aspect",
+  "winter": "Iarnă"
+ }
+}

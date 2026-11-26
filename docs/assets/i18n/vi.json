@@ -1,0 +1,31 @@
+{
+ "names": {
+  "christmas": "Giáng Sinh",
+  "easter": "Lễ Phục Sinh",
+  "lunar-new-year": "Tết Nguyên Đán",
+  "mid-autumn": "Tết Trung Thu",
+  "new-years-eve": "Đêm Giao Thừa",
+  "st-patricks": "Ngày Thánh Patrick",
+  "valentines": "Ngày Valentine"
+ },
+ "ui": {
+  "auto": "Tự động",
+  "automatic": "Tự động (mặc định)",
+  "autumn": "Mùa thu",
+  "classic": "Cổ điển",
+  "color": "Màu sắc",
+  "dark": "Tối",
+  "hintAuto": "Theo cài đặt của thiết bị.",
+  "hintDark": "Luôn tối, bất kể cài đặt thiết bị.",
+  "hintLight": "Luôn sáng, bất kể cài đặt thiết bị.",
+  "holidays": "Ngày lễ",
+  "light": "Sáng",
+  "mode": "Chế độ",
+  "now": "Hiện tại:",
+  "seasons": "Mùa",
+  "spring": "Mùa xuân",
+  "summer": "Mùa hạ",
+  "title": "Giao diện",
+  "winter": "Mùa đông"
+ }
+}

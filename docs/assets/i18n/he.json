@@ -1,0 +1,34 @@
+{
+ "names": {
+  "christmas": "חג המולד",
+  "easter": "פסחא",
+  "eid-al-adha": "עיד אל-אדחא",
+  "eid-al-fitr": "עיד אל-פיטר",
+  "halloween": "ליל כל הקדושים",
+  "hanukkah": "חנוכה",
+  "independence-il": "יום העצמאות",
+  "new-years-eve": "ערב השנה האזרחית החדשה",
+  "rosh-hashanah": "ראש השנה",
+  "valentines": "יום האהבה"
+ },
+ "ui": {
+  "auto": "אוטומטי",
+  "automatic": "אוטומטי (ברירת מחדל)",
+  "autumn": "סתיו",
+  "classic": "קלאסי",
+  "color": "צבע",
+  "dark": "כהה",
+  "hintAuto": "בהתאם להגדרת המכשיר.",
+  "hintDark": "תמיד כהה, בלי קשר להגדרת המכשיר.",
+  "hintLight": "תמיד בהיר, בלי קשר להגדרת המכשיר.",
+  "holidays": "חגים",
+  "light": "בהיר",
+  "mode": "מצב",
+  "now": "עכשיו:",
+  "seasons": "עונות",
+  "spring": "אביב",
+  "summer": "קיץ",
+  "title": "מראה",
+  "winter": "חורף"
+ }
+}

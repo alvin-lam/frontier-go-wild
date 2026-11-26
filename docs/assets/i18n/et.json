@@ -1,0 +1,30 @@
+{
+ "names": {
+  "christmas": "Jõulud",
+  "easter": "Lihavõtted",
+  "europe-day": "Euroopa päev",
+  "midsummer": "Jaanipäev",
+  "new-years-eve": "Vana-aasta õhtu",
+  "valentines": "Sõbrapäev"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automaatne (vaikimisi)",
+  "autumn": "Sügis",
+  "classic": "Klassikaline",
+  "color": "Värv",
+  "dark": "Tume",
+  "hintAuto": "Järgib seadme seadistust.",
+  "hintDark": "Alati tume, olenemata seadmest.",
+  "hintLight": "Alati hele, olenemata seadmest.",
+  "holidays": "Pühad",
+  "light": "Hele",
+  "mode": "Režiim",
+  "now": "Praegu:",
+  "seasons": "Aastaajad",
+  "spring": "Kevad",
+  "summer": "Suvi",
+  "title": "Välimus",
+  "winter": "Talv"
+ }
+}

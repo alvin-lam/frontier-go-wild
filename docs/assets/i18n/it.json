@@ -1,0 +1,33 @@
+{
+ "names": {
+  "carnival": "Carnevale",
+  "christmas": "Natale",
+  "easter": "Pasqua",
+  "europe-day": "Festa dell'Europa",
+  "lunar-new-year": "Capodanno lunare",
+  "new-years-eve": "Capodanno",
+  "st-patricks": "San Patrizio",
+  "three-kings": "Epifania",
+  "valentines": "San Valentino"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatico (predefinito)",
+  "autumn": "Autunno",
+  "classic": "Classico",
+  "color": "Colore",
+  "dark": "Scuro",
+  "hintAuto": "Segue l'impostazione del dispositivo.",
+  "hintDark": "Sempre scuro, indipendentemente dal dispositivo.",
+  "hintLight": "Sempre chiaro, indipendentemente dal dispositivo.",
+  "holidays": "Festività",
+  "light": "Chiaro",
+  "mode": "Modalità",
+  "now": "Ora:",
+  "seasons": "Stagioni",
+  "spring": "Primavera",
+  "summer": "Estate",
+  "title": "Aspetto",
+  "winter": "Inverno"
+ }
+}

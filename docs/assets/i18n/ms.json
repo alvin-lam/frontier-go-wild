@@ -1,0 +1,33 @@
+{
+ "names": {
+  "christmas": "Krismas",
+  "diwali": "Deepavali",
+  "easter": "Easter",
+  "eid-al-adha": "Hari Raya Aidiladha",
+  "eid-al-fitr": "Hari Raya Aidilfitri",
+  "lunar-new-year": "Tahun Baru Cina",
+  "mid-autumn": "Pesta Kuih Bulan",
+  "new-years-eve": "Malam Tahun Baru",
+  "valentines": "Hari Valentine"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatik (lalai)",
+  "autumn": "Musim luruh",
+  "classic": "Klasik",
+  "color": "Warna",
+  "dark": "Gelap",
+  "hintAuto": "Mengikut tetapan peranti anda.",
+  "hintDark": "Sentiasa gelap, tanpa mengira tetapan peranti.",
+  "hintLight": "Sentiasa cerah, tanpa mengira tetapan peranti.",
+  "holidays": "Perayaan",
+  "light": "Cerah",
+  "mode": "Mod",
+  "now": "Kini:",
+  "seasons": "Musim",
+  "spring": "Musim bunga",
+  "summer": "Musim panas",
+  "title": "Penampilan",
+  "winter": "Musim sejuk"
+ }
+}

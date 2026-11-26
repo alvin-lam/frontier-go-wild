@@ -1,0 +1,34 @@
+{
+ "names": {
+  "christmas": "Natal",
+  "easter": "Paskah",
+  "eid-al-adha": "Iduladha",
+  "eid-al-fitr": "Idulfitri",
+  "independence-id": "Hari Kemerdekaan",
+  "lunar-new-year": "Tahun Baru Imlek",
+  "mid-autumn": "Festival Kue Bulan",
+  "new-years-eve": "Malam Tahun Baru",
+  "st-patricks": "Hari Santo Patrick",
+  "valentines": "Hari Valentine"
+ },
+ "ui": {
+  "auto": "Otomatis",
+  "automatic": "Otomatis (bawaan)",
+  "autumn": "Musim gugur",
+  "classic": "Klasik",
+  "color": "Warna",
+  "dark": "Gelap",
+  "hintAuto": "Mengikuti pengaturan perangkat Anda.",
+  "hintDark": "Selalu gelap, apa pun pengaturan perangkat.",
+  "hintLight": "Selalu terang, apa pun pengaturan perangkat.",
+  "holidays": "Hari raya",
+  "light": "Terang",
+  "mode": "Mode",
+  "now": "Sekarang:",
+  "seasons": "Musim",
+  "spring": "Musim semi",
+  "summer": "Musim panas",
+  "title": "Tampilan",
+  "winter": "Musim dingin"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "country": {
+  "AT": {
+   "names": {
+    "carnival": "Fasching"
+   }
+  },
+  "CH": {
+   "names": {
+    "carnival": "Fasnacht"
+   }
+  }
+ },
+ "names": {
+  "carnival": "Karneval",
+  "christmas": "Weihnachten",
+  "easter": "Ostern",
+  "eid-al-adha": "Opferfest",
+  "eid-al-fitr": "Zuckerfest",
+  "europe-day": "Europatag",
+  "hanukkah": "Chanukka",
+  "kings-day": "Königstag",
+  "lunar-new-year": "Mondneujahr",
+  "mid-autumn": "Mondfest",
+  "midsummer": "Mittsommer",
+  "new-years-eve": "Silvester",
+  "nowruz": "Nouruz",
+  "sinterklaas": "Nikolaustag",
+  "three-kings": "Heilige Drei Könige",
+  "valentines": "Valentinstag"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatisch (Standard)",
+  "autumn": "Herbst",
+  "classic": "Klassisch",
+  "color": "Farbe",
+  "dark": "Dunkel",
+  "hintAuto": "Folgt der Einstellung deines Geräts.",
+  "hintDark": "Immer dunkel, unabhängig von der Geräteeinstellung.",
+  "hintLight": "Immer hell, unabhängig von der Geräteeinstellung.",
+  "holidays": "Feiertage",
+  "light": "Hell",
+  "mode": "Modus",
+  "now": "Jetzt:",
+  "seasons": "Jahreszeiten",
+  "spring": "Frühling",
+  "summer": "Sommer",
+  "title": "Darstellung",
+  "winter": "Winter"
+ }
+}

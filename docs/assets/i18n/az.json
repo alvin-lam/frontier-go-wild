@@ -1,0 +1,28 @@
+{
+ "names": {
+  "eid-al-adha": "Qurban bayramı",
+  "eid-al-fitr": "Ramazan bayramı",
+  "new-years-eve": "Yeni il gecəsi",
+  "nowruz": "Novruz"
+ },
+ "ui": {
+  "auto": "Avto",
+  "automatic": "Avtomatik (standart)",
+  "autumn": "Payız",
+  "classic": "Klassik",
+  "color": "Rəng",
+  "dark": "Qaranlıq",
+  "hintAuto": "Cihazınızın ayarına uyğundur.",
+  "hintDark": "Həmişə qaranlıq, cihazın ayarından asılı olmayaraq.",
+  "hintLight": "Həmişə işıqlı, cihazın ayarından asılı olmayaraq.",
+  "holidays": "Bayramlar",
+  "light": "İşıqlı",
+  "mode": "Rejim",
+  "now": "İndi:",
+  "seasons": "Fəsillər",
+  "spring": "Yaz",
+  "summer": "Yay",
+  "title": "Görünüş",
+  "winter": "Qış"
+ }
+}

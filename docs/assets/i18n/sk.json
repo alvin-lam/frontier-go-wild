@@ -1,0 +1,30 @@
+{
+ "names": {
+  "christmas": "Vianoce",
+  "easter": "Veľká noc",
+  "europe-day": "Deň Európy",
+  "new-years-eve": "Silvester",
+  "sinterklaas": "Mikuláš",
+  "valentines": "Valentín"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automaticky (predvolené)",
+  "autumn": "Jeseň",
+  "classic": "Klasický",
+  "color": "Farba",
+  "dark": "Tmavý",
+  "hintAuto": "Podľa nastavenia zariadenia.",
+  "hintDark": "Vždy tmavý bez ohľadu na zariadenie.",
+  "hintLight": "Vždy svetlý bez ohľadu na zariadenie.",
+  "holidays": "Sviatky",
+  "light": "Svetlý",
+  "mode": "Režim",
+  "now": "Teraz:",
+  "seasons": "Ročné obdobia",
+  "spring": "Jar",
+  "summer": "Leto",
+  "title": "Vzhľad",
+  "winter": "Zima"
+ }
+}

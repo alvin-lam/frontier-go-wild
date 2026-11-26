@@ -1,0 +1,64 @@
+{
+ "country": {
+  "PT": {
+   "names": {
+    "new-years-eve": "Passagem de Ano",
+    "valentines": "Dia dos Namorados"
+   },
+   "ui": {
+    "auto": "Auto",
+    "automatic": "Automático (predefinido)",
+    "autumn": "Outono",
+    "classic": "Clássico",
+    "color": "Cor",
+    "dark": "Escuro",
+    "hintAuto": "Segue a definição do seu dispositivo.",
+    "hintDark": "Sempre escuro, independentemente do dispositivo.",
+    "hintLight": "Sempre claro, independentemente do dispositivo.",
+    "holidays": "Feriados",
+    "light": "Claro",
+    "mode": "Modo",
+    "now": "Agora:",
+    "seasons": "Estações do ano",
+    "spring": "Primavera",
+    "summer": "Verão",
+    "title": "Aspeto",
+    "winter": "Inverno"
+   }
+  }
+ },
+ "names": {
+  "carnival": "Carnaval",
+  "christmas": "Natal",
+  "easter": "Páscoa",
+  "europe-day": "Dia da Europa",
+  "hanukkah": "Hanucá",
+  "independence-br": "Dia da Independência",
+  "lunar-new-year": "Ano Novo Lunar",
+  "new-years-eve": "Réveillon",
+  "pride": "Orgulho",
+  "st-patricks": "Dia de São Patrício",
+  "three-kings": "Dia de Reis",
+  "valentines": "Dia de São Valentim"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automático (padrão)",
+  "autumn": "Outono",
+  "classic": "Clássico",
+  "color": "Cor",
+  "dark": "Escuro",
+  "hintAuto": "Segue a configuração do seu dispositivo.",
+  "hintDark": "Sempre escuro, independentemente do dispositivo.",
+  "hintLight": "Sempre claro, independentemente do dispositivo.",
+  "holidays": "Feriados",
+  "light": "Claro",
+  "mode": "Modo",
+  "now": "Agora:",
+  "seasons": "Estações",
+  "spring": "Primavera",
+  "summer": "Verão",
+  "title": "Aparência",
+  "winter": "Inverno"
+ }
+}

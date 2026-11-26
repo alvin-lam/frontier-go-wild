@@ -1,0 +1,32 @@
+{
+ "names": {
+  "christmas": "Jul",
+  "easter": "Påske",
+  "europe-day": "Europadag",
+  "lunar-new-year": "Månenytår",
+  "midsummer": "Sankthans",
+  "new-years-eve": "Nytårsaften",
+  "three-kings": "Helligtrekonger",
+  "valentines": "Valentinsdag"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatisk (standard)",
+  "autumn": "Efterår",
+  "classic": "Klassisk",
+  "color": "Farve",
+  "dark": "Mørk",
+  "hintAuto": "Følger enhedens indstilling.",
+  "hintDark": "Altid mørk, uanset enhedens indstilling.",
+  "hintLight": "Altid lys, uanset enhedens indstilling.",
+  "holidays": "Helligdage",
+  "light": "Lys",
+  "mode": "Tilstand",
+  "now": "Nu:",
+  "seasons": "Årstider",
+  "spring": "Forår",
+  "summer": "Sommer",
+  "title": "Udseende",
+  "winter": "Vinter"
+ }
+}

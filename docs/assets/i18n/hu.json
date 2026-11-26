@@ -1,0 +1,30 @@
+{
+ "names": {
+  "christmas": "Karácsony",
+  "easter": "Húsvét",
+  "europe-day": "Európa-nap",
+  "new-years-eve": "Szilveszter",
+  "sinterklaas": "Mikulás",
+  "valentines": "Valentin-nap"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatikus (alapértelmezett)",
+  "autumn": "Ősz",
+  "classic": "Klasszikus",
+  "color": "Szín",
+  "dark": "Sötét",
+  "hintAuto": "Az eszköz beállítását követi.",
+  "hintDark": "Mindig sötét, az eszköztől függetlenül.",
+  "hintLight": "Mindig világos, az eszköztől függetlenül.",
+  "holidays": "Ünnepek",
+  "light": "Világos",
+  "mode": "Mód",
+  "now": "Most:",
+  "seasons": "Évszakok",
+  "spring": "Tavasz",
+  "summer": "Nyár",
+  "title": "Megjelenés",
+  "winter": "Tél"
+ }
+}

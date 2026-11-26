@@ -1,0 +1,43 @@
+{
+ "country": {
+  "CA": {
+   "names": {
+    "labor-day": "Labour Day"
+   }
+  },
+  "KH": {
+   "names": {
+    "songkran": "Khmer New Year"
+   }
+  },
+  "KR": {
+   "names": {
+    "mid-autumn": "Chuseok"
+   }
+  },
+  "LA": {
+   "names": {
+    "songkran": "Lao New Year"
+   }
+  },
+  "MM": {
+   "names": {
+    "songkran": "Thingyan"
+   }
+  },
+  "MY": {
+   "names": {
+    "diwali": "Deepavali",
+    "eid-al-adha": "Hari Raya Aidiladha",
+    "eid-al-fitr": "Hari Raya Aidilfitri"
+   }
+  },
+  "SG": {
+   "names": {
+    "diwali": "Deepavali",
+    "eid-al-adha": "Hari Raya Haji",
+    "eid-al-fitr": "Hari Raya Puasa"
+   }
+  }
+ }
+}

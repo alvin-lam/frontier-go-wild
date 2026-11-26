@@ -1,0 +1,26 @@
+{
+ "names": {
+  "constitution-day-no": "17. mai",
+  "midsummer": "Jonsok"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automatisk (standard)",
+  "autumn": "Haust",
+  "classic": "Klassisk",
+  "color": "Farge",
+  "dark": "Mørk",
+  "hintAuto": "Følgjer innstillinga på eininga.",
+  "hintDark": "Alltid mørk, same kva eininga er sett til.",
+  "hintLight": "Alltid lys, same kva eininga er sett til.",
+  "holidays": "Høgtider",
+  "light": "Lys",
+  "mode": "Modus",
+  "now": "No:",
+  "seasons": "Årstider",
+  "spring": "Vår",
+  "summer": "Sommar",
+  "title": "Utsjånad",
+  "winter": "Vinter"
+ }
+}

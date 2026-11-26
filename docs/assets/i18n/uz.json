@@ -1,0 +1,28 @@
+{
+ "names": {
+  "eid-al-adha": "Qurbon hayiti",
+  "eid-al-fitr": "Ramazon hayiti",
+  "new-years-eve": "Yangi yil kechasi",
+  "nowruz": "Navroʻz"
+ },
+ "ui": {
+  "auto": "Avto",
+  "automatic": "Avtomatik (standart)",
+  "autumn": "Kuz",
+  "classic": "Klassik",
+  "color": "Rang",
+  "dark": "Qorongʻi",
+  "hintAuto": "Qurilma sozlamasiga mos.",
+  "hintDark": "Har doim qorongʻi, qurilma sozlamasidan qatʼi nazar.",
+  "hintLight": "Har doim yorugʻ, qurilma sozlamasidan qatʼi nazar.",
+  "holidays": "Bayramlar",
+  "light": "Yorugʻ",
+  "mode": "Rejim",
+  "now": "Hozir:",
+  "seasons": "Fasllar",
+  "spring": "Bahor",
+  "summer": "Yoz",
+  "title": "Koʻrinish",
+  "winter": "Qish"
+ }
+}

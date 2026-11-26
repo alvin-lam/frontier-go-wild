@@ -1,0 +1,30 @@
+{
+ "names": {
+  "christmas": "Vánoce",
+  "easter": "Velikonoce",
+  "europe-day": "Den Evropy",
+  "new-years-eve": "Silvestr",
+  "sinterklaas": "Mikuláš",
+  "valentines": "Valentýn"
+ },
+ "ui": {
+  "auto": "Auto",
+  "automatic": "Automaticky (výchozí)",
+  "autumn": "Podzim",
+  "classic": "Klasický",
+  "color": "Barva",
+  "dark": "Tmavý",
+  "hintAuto": "Podle nastavení zařízení.",
+  "hintDark": "Vždy tmavý bez ohledu na zařízení.",
+  "hintLight": "Vždy světlý bez ohledu na zařízení.",
+  "holidays": "Svátky",
+  "light": "Světlý",
+  "mode": "Režim",
+  "now": "Nyní:",
+  "seasons": "Roční období",
+  "spring": "Jaro",
+  "summer": "Léto",
+  "title": "Vzhled",
+  "winter": "Zima"
+ }
+}
