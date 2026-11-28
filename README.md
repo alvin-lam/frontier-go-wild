@@ -7,7 +7,7 @@ This template is not a published site. Each app built from it is published on it
 ## Features
 
 - **Brand header and footer:** "All Trips Considered" in Instrument Serif, the app name, a 75 px app icon and the copyright line.
-- **Appearance panel:** light, dark or automatic mode, plus season and holiday colors. The panel is translated into 59 languages, and only the visitor's language file is fetched.
+- **Appearance panel:** light, dark or automatic mode, plus season and holiday colors. Holiday names are translated into 59 languages and the panel's labels into 45, including English. Only the visitor's language file is fetched.
 - **Season and holiday colors:** the automatic scheme follows the season and the holidays celebrated in the visitor's country. See [Holidays and colors](#holidays-and-colors).
 - **Travel Tools:** links to the other All Trips Considered tools.
 - **Add to Home Screen banner** and a **back-to-top button.**
@@ -36,6 +36,7 @@ docs/assets/i18n/<language>.json  Holiday names and panel labels, one file per l
 docs/assets/img/                  Icons at the sizes the pages use
 docs/assets/fonts/                Instrument Serif (self-hosted) and its license
 README.md                         This file
+.claude/agents/qc-bug-hunter.md   QC and bug hunting agent for Claude Code (edit its Project checks per app)
 design/icon-source.png            Full-size icon artwork, the source of every icon
 ```
 
@@ -56,17 +57,17 @@ Open http://localhost:8000.
 Search for `TEMPLATE:` in `docs/`. In short:
 
 1. Set `data-app` on `<html>` in `index.html` and `privacy.html` to a short unique id. Saved settings are named after it.
-2. Replace "App Name" in both pages and in `manifest.webmanifest`, and replace the h1 emoji.
+2. Replace "App Name" in both pages and in `manifest.webmanifest`, and replace the h1 emoji. The main page title is "App Name | All Trips Considered" and the privacy page title is "Privacy | App Name | All Trips Considered", with the app's name in place of "App Name".
 3. Replace the images in `docs/assets/img/` and `docs/favicon.ico`. Keep the file names and sizes, and keep the source artwork in `design/`.
-4. Mark this app's link in Travel Tools with `aria-current="page"`.
+4. Mark this app's link in Travel Tools with `aria-current="page"` and change its arrow text to "You are here".
 5. Fill in the privacy page: what the app saves, the optional export and link sections, and the date. Keep the section order and wording the same as the other apps.
 6. Add `docs/CNAME` with the app's subdomain, and copy this README's outline for the new repository.
 
 ### Holidays and colors
 
-- Every holiday lists the countries where it is a public holiday or widely celebrated (`where`), plus device languages for diasporas (`langs`). A visitor sees only their own country's holidays, plus seasons. New Year's Eve is the only holiday shown everywhere.
+- Every holiday lists the countries where it is a public holiday or widely celebrated (`where`), plus device languages for diasporas (`langs`). A visitor sees only their own country's holidays, plus seasons. New Year's Eve is the only holiday listed everywhere.
 - The country comes from the device time zone, then from the region in the language setting.
-- When two holidays overlap, a pinned rule wins. Pinned rules cover Christmas Eve and Day, February 14, and the main day of each moving holiday such as Eid, Diwali, Holi and Lunar New Year. Next comes the holiday celebrated in fewer countries, then the shorter one. Every holiday shows on at least its main day in every country, every year.
+- When two holidays overlap, a pinned rule wins. Pinned rules cover Christmas Eve and Day, February 14, and the main day of each moving holiday such as Eid, Diwali, Holi and Lunar New Year. Next comes the holiday celebrated in fewer countries, then the shorter one. Because of this, a holiday can lose its main day in some years. For example, Hanukkah can take New Year's Eve, Christmas or Thanksgiving in the United States, Eid can take Valentine's Day, and Día de Muertos takes Halloween in Mexico.
 - Serbia, Montenegro, North Macedonia, Georgia, Belarus and Ethiopia get Christmas on January 7. Rules can use `out` and `in` to split countries.
 - Lunar, Hebrew, Hindu and Islamic calendar dates are in `tables` in `docs/assets/js/calendar-data.js` and run through 2036. The comment above the data says how each was checked.
 - Translations were written without an official source, so check them before launch. Eid dates follow Saudi Arabia's Umm al-Qura calendar. Local moon sighting can move them by a day, and the date windows allow for it.

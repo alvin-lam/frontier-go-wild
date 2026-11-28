@@ -35,7 +35,7 @@
     --text: #e8ebf0;
     --muted: #9aa3b2;
     --border: #2c3340;
-    --primary: var(--scheme-primary-dark, #5b84f5);
+    --primary: var(--scheme-primary-dark, #4a70de);
     --brand-link: var(--scheme-link-dark, #7A9CEB);
     color-scheme: dark;
   }
@@ -46,7 +46,7 @@
   --text: #e8ebf0;
   --muted: #9aa3b2;
   --border: #2c3340;
-  --primary: var(--scheme-primary-dark, #5b84f5);
+  --primary: var(--scheme-primary-dark, #4a70de);
   --brand-link: var(--scheme-link-dark, #7A9CEB);
   color-scheme: dark;
 }
@@ -131,7 +131,7 @@ h2 { font-size: 1.15rem; margin: 0; }
   border: 1px solid var(--border);
   border-radius: 12px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, .18);
-  text-align: left;
+  text-align: start;
 }
 .appearance-title { font-size: 1rem; margin: 0 0 12px; }
 .appearance-group { border: 0; margin: 0; padding: 0; min-width: 0; }

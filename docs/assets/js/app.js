@@ -1,6 +1,7 @@
 /*
  * All Trips Considered: page behavior (loaded with defer).
- * Appearance panel, translations, back to top, Add to Home Screen, copyright year.
+ * Appearance panel, translations, back to top and Add to Home Screen.
+ * theme-boot.js sets the copyright year.
  * Builds all UI with DOM APIs and textContent; nothing is inserted as HTML.
  */
 (function () {
@@ -18,6 +19,7 @@
   };
   var RTL = ["ar", "fa", "he", "ur", "ps", "ckb"];
   var uiLang = "en";
+  var translated = {}; // scheme ids whose names came from the language file
   function str(v) { return typeof v === "string" && v.length > 0 && v.length <= 120; }
   // Copies only known keys with short string values from untrusted JSON.
   function merge(target, source, allowed) {
@@ -36,7 +38,7 @@
     var uiCount = merge(ui, data.ui, isUi);
     var cc = data.country && data.country[ATC.country];
     if (cc) { merge(names, cc.names, isId); uiCount += merge(ui, cc.ui, isUi); }
-    Object.keys(names).forEach(function (id) { S.byId[id].name = names[id]; });
+    Object.keys(names).forEach(function (id) { S.byId[id].name = names[id]; translated[id] = true; });
     if (uiCount) { Object.keys(ui).forEach(function (k) { UI[k] = ui[k]; }); uiLang = ATC.lang; }
   }
   function loadStrings() {
@@ -59,6 +61,13 @@
     if (cls) e.className = cls;
     if (text !== undefined) e.textContent = text;
     return e;
+  }
+  // Holiday names in the visitor's language keep their own language tag when
+  // the rest of the panel is in English, so screen readers use the right voice.
+  function tagName(node, s) {
+    if (uiLang === ATC.lang || !translated[s.id] || s.group !== "holiday") return;
+    node.setAttribute("lang", ATC.lang);
+    node.setAttribute("dir", "auto");
   }
   function label(s) {
     if (s.id === "auto") return UI.automatic;
@@ -90,9 +99,14 @@
       var input = el("input");
       input.type = "radio"; input.name = "scheme"; input.value = s.id;
       var name = el("span", "scheme-name", label(s));
+      tagName(name, s);
       if (s.id === "auto") {
         var now = S.resolveAuto();
-        name.appendChild(el("small", "scheme-now", UI.now + (/：$/.test(UI.now) ? "" : " ") + label(now)));
+        var nowLine = el("small", "scheme-now", UI.now + (/：$/.test(UI.now) ? "" : " "));
+        var nowName = el("span", null, label(now));
+        tagName(nowName, now);
+        nowLine.appendChild(nowName);
+        name.appendChild(nowLine);
       }
       var swatch = el("span", "scheme-swatch");
       swatch.setAttribute("aria-hidden", "true");
@@ -148,6 +162,8 @@
 
   render();
   loadStrings().then(render);
+  // After midnight, "Now:" and its swatch follow the new day.
+  document.addEventListener("atc:newday", function () { renderList(); sync(); });
 
   /* ---------- Back to top ---------- */
   var top = document.getElementById("back-to-top");
@@ -174,7 +190,10 @@
     function setHeight() { document.body.style.setProperty("--install-banner-height", banner.offsetHeight + "px"); }
     function show() { banner.hidden = false; document.body.classList.add("has-install-banner"); setHeight(); }
     function hide(remember) {
+      // Focus would fall to the page body when the banner disappears.
+      var hadFocus = banner.contains(document.activeElement);
       banner.hidden = true;
+      if (hadFocus) document.getElementById("page-title").focus({ preventScroll: true });
       document.body.classList.remove("has-install-banner");
       if (remember) { try { localStorage.setItem(KEY, "1"); } catch (e) {} }
     }
@@ -197,7 +216,4 @@
     window.addEventListener("appinstalled", function () { hide(true); });
     window.addEventListener("resize", function () { if (!banner.hidden) setHeight(); });
   })();
-
-  /* ---------- Copyright year ---------- */
-  document.getElementById("copyright-year").textContent = String(new Date().getFullYear());
 })();

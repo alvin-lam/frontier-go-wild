@@ -61,7 +61,8 @@
   var southern = D.southern.some(function (z) { return z.charAt(z.length - 1) === "/" ? tz.indexOf(z) === 0 : tz === z; });
 
   /* ---------- Schemes ---------- */
-  var byId = {};
+  // No prototype, so a saved value such as "constructor" never matches.
+  var byId = Object.create(null);
   // Copies, so names can be translated without touching the frozen data.
   var SCHEMES = D.schemes.map(function (s) {
     var c = {}; for (var k in s) c[k] = s[k];
@@ -152,11 +153,38 @@
   function resolveAuto(date) { date = date || new Date(); return holiday(date) || byId[season(date)]; }
 
   /* ---------- Applying a scheme ---------- */
-  function tint(hex, amount) { // blend toward white for dark mode
-    var n = parseInt(hex.slice(1), 16);
-    return "#" + [n >> 16, (n >> 8) & 255, n & 255].map(function (c) {
-      return Math.round(c + (255 - c) * amount).toString(16).padStart(2, "0");
+  // Colors are adjusted so each scheme meets WCAG 2.1 AA in both modes:
+  // white button text at 4.5:1, links at 4.5:1 and focus rings and check
+  // marks at 3:1 against the page and panel backgrounds.
+  var LIGHT_BG = "#f5f6f8", DARK_BG = "#12151b", DARK_SURFACE = "#1b2029";
+  function rgb(hex) { var n = parseInt(hex.slice(1), 16); return [n >> 16, (n >> 8) & 255, n & 255]; }
+  function mix(hex, toward, amount) { // blend toward another color
+    var q = rgb(toward);
+    return "#" + rgb(hex).map(function (c, i) {
+      return Math.round(c + (q[i] - c) * amount).toString(16).padStart(2, "0");
     }).join("");
+  }
+  function luminance(hex) {
+    var c = rgb(hex).map(function (v) { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+  }
+  function contrast(a, b) {
+    var x = luminance(a), y = luminance(b);
+    return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05);
+  }
+  // Dark mode: the tint closest to 25% that keeps white text readable and the color visible on the panel.
+  function darkPrimary(hex) {
+    var best = null, bestGap = Infinity;
+    for (var i = 0; i <= 100; i++) {
+      var c = mix(hex, "#ffffff", i / 100);
+      if (contrast(c, DARK_SURFACE) >= 3 && contrast(c, "#ffffff") >= 4.5 && Math.abs(i - 25) < bestGap) { best = c; bestGap = Math.abs(i - 25); }
+    }
+    return best || mix(hex, "#ffffff", 0.25);
+  }
+  // Links: darken (light mode) or lighten (dark mode) until they reach 4.5:1.
+  function readable(hex, toward, bg, start) {
+    for (var i = start; i <= 100; i++) { var c = mix(hex, toward, i / 100); if (contrast(c, bg) >= 4.5) return c; }
+    return toward;
   }
   function apply(id) {
     var chosen = byId[id] || byId.auto;
@@ -164,9 +192,9 @@
     var st = html.style;
     if (s.color) {
       st.setProperty("--scheme-primary", s.color);
-      st.setProperty("--scheme-primary-dark", tint(s.color, 0.25));
-      st.setProperty("--scheme-link", s.color);
-      st.setProperty("--scheme-link-dark", tint(s.color, 0.5));
+      st.setProperty("--scheme-primary-dark", darkPrimary(s.color));
+      st.setProperty("--scheme-link", readable(s.color, "#000000", LIGHT_BG, 0));
+      st.setProperty("--scheme-link-dark", readable(s.color, "#ffffff", DARK_BG, 50));
     } else {
       ["--scheme-primary", "--scheme-primary-dark", "--scheme-link", "--scheme-link-dark"].forEach(function (n) { st.removeProperty(n); });
     }
@@ -176,8 +204,24 @@
     return chosen;
   }
   var current = apply(byId[load("scheme")] ? load("scheme") : "auto").id;
-  // A page left open past midnight picks up the new day's colors.
-  document.addEventListener("visibilitychange", function () { if (!document.hidden && current === "auto") apply("auto"); });
+
+  /* ---------- A new day ---------- */
+  // A page left open past midnight picks up the new day's colors and year.
+  // app.js listens for "atc:newday" to redraw the Appearance panel.
+  function dayKey() { var d = new Date(); return d.getFullYear() + "-" + d.getMonth() + "-" + d.getDate(); }
+  var shownDay = dayKey();
+  function setYear() {
+    var y = document.getElementById("copyright-year");
+    if (y) y.textContent = String(new Date().getFullYear());
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", setYear); else setYear();
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden || dayKey() === shownDay) return;
+    shownDay = dayKey();
+    if (current === "auto") apply("auto");
+    setYear();
+    document.dispatchEvent(new Event("atc:newday"));
+  });
 
   self.ATC = Object.freeze({
     app: APP, lang: LANG, country: COUNTRY, theme: theme,
